@@ -1,0 +1,15 @@
+/* Articles section */
+
+.articles-section {
+  max-width: var(--width-2xl);
+  margin-inline: auto;
+}
+
+.articles-section__title {
+  margin: 0;
+
+  font-size: var(--font-4xl);
+  font-weight: 700;
+  line-height: var(--leading-10);
+  letter-spacing: var(--tracking-tight);
+}

@@ -1,0 +1,42 @@
+body {
+  font-family: var(--text);
+  color: var(--foreground);
+  background-color: var(--background);
+  font-size: var(--font-base);
+  line-height: var(--leading-6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+}
+
+code {
+  font-family: var(--monospace);
+}
+
+hr {
+  margin-block: var(--spacing-12);
+  border: 1px solid hsl(var(--border));
+}
+
+button{
+  font-size: var(--font-sm);
+  line-height: var(--leading-5);
+  border-radius: var(--rounded-md);
+  font-weight: 400;
+}
+
+i{
+  color: var(--secondary-foreground);
+   font-size: 1.2em;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}

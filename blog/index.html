@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificable - Blog</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+   <header class="header container">
+      <h1 class="header__logo">
+        <a href="/index.html">Codificable</a></h1>
+      <nav class="navigation header__navegation">
+        <ul>
+          <li><a href="/blog/index.html">Blog</a></li>
+          <li><a href="#">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+
+       <button class="button button--sm header__button-login">Login</button>
+      <button class="button button--icon button--outline header__button-icon">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+      </button> 
+    </header>
+
+    <main>
+      <section class="section hero">
+        <div class="container">
+          <div class="hero__content">
+            <h2 class="hero__title">Un blog de desarrollo web profesional</h2>
+            <p class="hero__lead">
+              Acelera tu crecimiento aprendiendo de aquellos con mayor
+              experiencia y evita cometer los mismos errores. Consume y comparte
+              con responsabilidad.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="articles-section">
+            <h2 id="articles" class="articles-section__title">
+              Encuentra el artículo ideal
+            </h2>
+            <hr />
+            <article class="article-summary">
+              <header class="article-metadata">
+                <span class="article-metadata__date">26 Julio 2023</span>
+                <span class="article-metadata__tag">Principiante</span>
+              </header>
+              <a
+                href="conoce-los-elementos-basicos-de-html.html"
+                class="article-summary__content"
+              >
+                <h3 class="article-summary__title">
+                  Conoce los elementos básicos de HTML
+                </h3>
+                <p class="article-summary__text">
+                  A través de esta completa introducción, aprenderás sobre las
+                  etiquetas, elementos y atributos que conforman la estructura
+                  de una página web. Desde las bases hasta conceptos más
+                  avanzados, descubrirás cómo utilizar etiquetas para formatear
+                  el texto, insertar imágenes, enlaces, listas y tablas.
+                </p>
+              </a>
+              <footer class="article-summary__footer">
+                <div class="author">
+                  <img
+                    src="/assets/images/profile1.jpeg"
+                    alt="Micaela Bolognesi Avatar"
+                    width="320"
+                    height="480"
+                    class="author__avatar"
+                  />
+                  <div class="author__info">
+                    <strong class="author_name">Micaela Bolognesi</strong>
+                    <span>Frontend Developer - Vsale</span>
+                  </div>
+                </div>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <ul class="social-links">
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/facebook.svg"
+              width="24"
+              height="24"
+              alt="Facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/linkedin.svg"
+              width="24"
+              height="24"
+              alt="LinkedIn icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/twitter.svg"
+              width="24"
+              height="24"
+              alt="Twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/github.svg"
+              width="24"
+              height="24"
+              alt="GitHub icon"
+          /></a>
+        </li>
+      </ul>
+      <small class="footer__text"
+        >&copy; 2023 Codificable - Todos los derechos reservados</small
+      >
+    </footer>
+  </body>
+</html>

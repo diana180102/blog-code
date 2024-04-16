@@ -1,0 +1,15 @@
+/* Social Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.social-links li:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,19 @@
+/* Article metadata */
+
+.article-metadata__date {
+  margin-right: 16px;
+
+  font-size: var(--font-xs);
+  line-height: var(--leading-4);
+}
+
+.article-metadata__tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: var(--muted);
+  border-radius: var(--rounded-full);
+
+  font-size: var(--font-xs);
+  line-height: var(--leading-4);
+  color: var(--muted-foreground);
+}

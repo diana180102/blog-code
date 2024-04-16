@@ -1,0 +1,37 @@
+:root {
+  /* Font stacks */
+  --text: Inter, Arial, sans-serif;
+  --heading: Inter, Arial, sans-serif;
+  --display: "Familjen Grotesk", Inter, Arial, sans-serif;
+  --monospace: "Source Code Pro", monospace;
+
+  /* Sizes */
+  --font-xs: 0.75rem; /* 12px */
+  --font-sm: 0.875rem; /* 14px */
+  --font-base: 1rem; /* 16px */
+  --font-lg: 1.125rem; /* 18px */
+  --font-xl: 1.25rem; /* 20px */
+  --font-2xl: 1.5rem; /* 24px */
+  --font-3xl: 1.875rem; /* 30px */
+  --font-4xl: 2.25rem; /* 36px */
+  --font-5xl: 3rem; /* 48px */
+  --font-6xl: 3.75rem; /* 60px */
+  --font-7xl: 4.5rem; /* 72px */
+  --font-8xl: 6rem; /* 96px */
+  --font-9xl: 8rem; /* 128px */
+
+  /* Line heights */
+  --leading-none: 1; /* 1 */
+  --leading-4: 1rem; /* 16px */
+  --leading-5: 1.25rem; /* 20px */
+  --leading-6: 1.5rem; /* 24px */
+  --leading-7: 1.75rem; /* 28px */
+  --leading-8: 2rem; /* 32px */
+  --leading-9: 2.25rem; /* 36px */
+  --leading-10: 2.5rem; /* 40px */
+
+  /* Letter spacing */
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+}

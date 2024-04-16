@@ -1,0 +1,34 @@
+/* Navigation */
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.navigation a {
+  color: var(--foreground);
+  font-size: var(--font-base);
+  font-weight: 600;
+  line-height: 1; /* 100% */
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: var(--muted-foreground);
+}
+
+.navigation .active a {
+  color: var(--primary);
+}
+
+.navigation .active a:hover {
+  color: var(--primary-hover);
+}

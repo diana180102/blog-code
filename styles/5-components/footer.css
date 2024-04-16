@@ -1,0 +1,17 @@
+/* Footer */
+
+.footer {
+  padding-block: 32px;
+  text-align: center;
+  color: var(--muted-foreground);
+}
+
+.footer__text {
+  font-size: var(--font-xs);
+  line-height: var(--leading-5);
+}
+
+.footer .social-links {
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
