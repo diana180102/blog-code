@@ -1,0 +1,4 @@
+.hero2__content{
+    display: flex;
+  gap: var(--spacing-10);
+ }

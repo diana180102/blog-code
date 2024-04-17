@@ -1,0 +1,38 @@
+.pricing__card-container{
+    background-color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-10) 0;
+    border-radius: var(--rounded-2xl);
+    
+    margin: var(--spacing-2_5);
+    gap: var(--spacing-9);
+    
+}
+
+.pricing__card-title{
+    font-weight:600;
+    font-size: var(--font-base) ;
+}
+
+.pricing__card-price{
+    font-size: var(--font-5xl);
+    font-weight: 700;
+}
+
+.pricing__card-price span{
+    font-size: var(--font-base);
+    font-weight: 400;
+}
+
+.pricing__card-btn{
+    width: 256px;
+}
+
+
+.pricing__card-tax{
+    color: var(--muted-foreground);
+    font-size: var(--font-sm);
+}

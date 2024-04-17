@@ -1,0 +1,119 @@
+.pricing__content{
+   
+    margin-inline:auto;
+    padding: var(--spacing-24) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: var(--width-5xl);
+    gap: var(--spacing-8);
+
+}
+
+.pricing__head{
+    max-width: var(--width-2xl);
+}
+
+
+.pricing__title,
+.pricing__description{
+ text-align: center;
+}
+
+.pricing__title{
+    font-weight: 600;
+    font-size: var(--font-4xl);
+    line-height: var(--leading-9);
+    font-family: var(--display);
+    margin-bottom: var(--spacing-6);
+}
+
+.pricing__description{
+    color: var(--muted-foreground);
+    line-height: var(--leading-8);
+    font-size: var(--font-lg);
+    font-weight: 400;
+}
+
+
+.pricing__suscription{
+    margin-top: var(--spacing-4);
+    border-radius:var(--rounded-3xl) ;
+    border: 1px solid var(--border);
+    display: grid;
+}
+
+.pricing__suscription-details{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+    padding: var(--spacing-6);
+}
+
+.pricing__suscription-head{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-6);
+}
+
+.pricing__suscription-title{
+    font-weight: 700;
+    font-size: var(--font-2xl);
+    font-family: var(--heading);
+    color: var(--foreground);
+    letter-spacing: var(--tracking-tight);
+}
+
+.pricing__suscription-description{
+    color: var(--muted-foreground);
+    font-weight: 400;
+    font-size: var(--font-base);
+    line-height: var(--leading-7)
+}
+
+
+
+.pricing__features-title{
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: var(--spacing-8);
+}
+
+.pricing__features-list {
+    list-style: none;
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+.pricing__features-list li{
+    
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.pricing__features-list li::before{
+    background: url("/assets/icons/check.svg");
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+
+@media (min-width:48rem){
+    .pricing__features-list{
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+}
+
+@media (min-width:80rem){
+    .pricing__content{
+        
+    }
+
+    .pricing__suscription{
+        grid-template-columns: 2fr 1fr;
+    }
+}

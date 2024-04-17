@@ -2,11 +2,32 @@
 
 .article-summary {
   max-width: var(--width-xl);
+  margin-bottom:var(--spacing-10); 
+  padding-bottom: var(--spacing-10);
+  border-bottom: 2px solid var(--muted);
+  display: flex;
+  flex-direction: column;
 }
+
 
 .article-summary .article-metadata {
   margin-bottom: 12px;
 }
+
+.articles-summary__image{
+  width: 100%; 
+  ;
+}
+
+.articles-summary__image img{
+  border-radius: var(--rounded-2xl);
+  margin-bottom: var(--spacing-10);
+  object-fit: contain;
+  width: 100%;
+  
+  
+}
+
 
 .article-summary__content {
   display: block;

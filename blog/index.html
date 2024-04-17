@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codificable - Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/styles/index.css" />
   </head>
   <body>
@@ -13,7 +14,7 @@
       <nav class="navigation header__navegation">
         <ul>
           <li><a href="/blog/index.html">Blog</a></li>
-          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="/blog/conoce-los-elementos-basicos-de-html.html">Sobre nosotros</a></li>
         </ul>
       </nav>
 
@@ -26,7 +27,7 @@
     <main>
       <section class="section hero">
         <div class="container">
-          <div class="hero__content">
+          <div class="hero2__content">
             <h2 class="hero__title">Un blog de desarrollo web profesional</h2>
             <p class="hero__lead">
               Acelera tu crecimiento aprendiendo de aquellos con mayor
@@ -42,8 +43,13 @@
             <h2 id="articles" class="articles-section__title">
               Encuentra el artículo ideal
             </h2>
+            <p class="articles-section__description">Descubre, aprende, practica</p>
+             
             <hr />
             <article class="article-summary">
+              <div class="articles-summary__image">
+               <img src="/assets/images/meal-photo.jpeg"  width="1344" height="896">
+             </div>
               <header class="article-metadata">
                 <span class="article-metadata__date">26 Julio 2023</span>
                 <span class="article-metadata__tag">Principiante</span>
@@ -67,6 +73,45 @@
                 <div class="author">
                   <img
                     src="/assets/images/profile1.jpeg"
+                    alt="Micaela Bolognesi Avatar"
+                    width="320"
+                    height="480"
+                    class="author__avatar"
+                  />
+                  <div class="author__info">
+                    <strong class="author_name">Micaela Bolognesi</strong>
+                    <span>Frontend Developer - Vsale</span>
+                  </div>
+                </div>
+              </footer>
+            </article>
+             <article class="article-summary">
+              <div class="articles-summary__image">
+               <img src="/assets/images/circle3D.jpeg"  width="512" height="341">
+             </div>
+              <header class="article-metadata">
+                <span class="article-metadata__date">26 Julio 2023</span>
+                <span class="article-metadata__tag">Principiante</span>
+              </header>
+              <a
+                href="conoce-los-elementos-basicos-de-html.html"
+                class="article-summary__content"
+              >
+                <h3 class="article-summary__title">
+                  Conoce los elementos básicos de HTML
+                </h3>
+                <p class="article-summary__text">
+                  A través de esta completa introducción, aprenderás sobre las
+                  etiquetas, elementos y atributos que conforman la estructura
+                  de una página web. Desde las bases hasta conceptos más
+                  avanzados, descubrirás cómo utilizar etiquetas para formatear
+                  el texto, insertar imágenes, enlaces, listas y tablas.
+                </p>
+              </a>
+              <footer class="article-summary__footer">
+                <div class="author">
+                  <img
+                    src="/assets/images/profile3.jpeg"
                     alt="Micaela Bolognesi Avatar"
                     width="320"
                     height="480"
