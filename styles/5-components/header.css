@@ -3,6 +3,15 @@
   padding-block: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: var(--background);
+  height: var(--spacing-24);
+  
 }
 
 .header > * {
@@ -43,6 +52,8 @@
 .header__button-icon{
      display: block;
    }
+
+
 
 
 

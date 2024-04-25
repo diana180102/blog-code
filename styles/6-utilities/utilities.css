@@ -1,0 +1,40 @@
+.full-width{
+    width: 100% !important;
+}
+
+.max-w-2xl{
+    max-width: var(--width-2xl) !important;
+}
+
+.margin-center{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.span-2{
+   grid-column: 1 / span 2 ;
+}
+
+.translate-y-1{
+   transition: transform 1ms;
+}
+
+
+.translate-y-1:hover{
+    transform: translateY(8px);
+}
+
+
+.scale-1{
+    transition: transform 1000ms;
+}
+
+.scale-1:hover{
+    transform: scale(1.1);
+}
+
+

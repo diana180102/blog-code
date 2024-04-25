@@ -4,6 +4,7 @@ body {
   background-color: var(--background);
   font-size: var(--font-base);
   line-height: var(--leading-6);
+  accent-color: var(--primary);
 }
 
 h1,
@@ -40,3 +41,74 @@ img{
   height: auto;
   max-width: 100%;
 }
+
+:focus{
+  outline-offset: 1px;
+  outline-width: 1px;
+  outline-color: var(--ring);
+  outline-style: solid;
+}
+
+/* Form elements */
+
+label:not([type="radio"]){
+  font-weight: 600;
+  font-size: var(--font-sm);
+  line-height: var(--leanding-none);
+}
+
+input:not([type="radio"], [type="checkbox"]), 
+select,
+textarea{
+  padding: var(--spacing-2) var(--spacing-3);
+  border: 1px var(--border) solid;
+  border-radius: var(--rounded-md, 6px) ;
+  font-weight: 400;
+  height: var(--spacing-10);
+  font-size: var(--font-sm);
+  
+}
+
+textarea{
+  min-height: var(--spacing-20);
+}
+
+::placeholder{
+ color: var(--muted-foreground);
+}
+
+input:disabled, 
+select:disabled,
+textarea:disabled{
+  opacity: 50%;
+}
+
+
+
+input[type="radio"]{
+  height: 20px;
+  width: 20px;
+  border: none;
+}
+
+
+input[type="checkbox"]{
+  height: 16px;
+  width: 16px;
+}
+
+::file-selector-button{
+  font-size: var(--font-sm);
+  font-weight: 600;
+  line-height: var(--leading-6);
+  border: none;
+  background-color: transparent;
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+}
+
+legend{
+  font-weight: 600;
+  font-size: var(--font-sm);
+}
+

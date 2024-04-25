@@ -8,11 +8,14 @@
     background-color: var(--primary);
     color: var(--primary-foreground);
     cursor: pointer;
+    transition: transform 1ms;
+    
 }
 
-.button:hover, 
+.button:hover 
 {
     background-color: var(--primary-hover);
+    
 }
 
 .button:active, 

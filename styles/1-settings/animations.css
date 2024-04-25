@@ -1,0 +1,29 @@
+.slide-right{
+   animation: slide-right 1500ms;
+}
+
+@keyframes slide-right {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-down{
+    animation: slide-down 1500ms;
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-100%);
+         opacity: 0;
+    }
+    to{
+         transform: translateY(0);
+         opacity: 1;
+    }
+}

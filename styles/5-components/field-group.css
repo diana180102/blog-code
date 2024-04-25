@@ -1,0 +1,11 @@
+.field-group{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+}
+
+.field-group:has(*:required)  legend::after{
+
+    content: "*";
+    color: var(--primary);
+}

@@ -1,14 +1,14 @@
 /* Hero */
-
-
+.hero{
+  padding: var(--spacing-24);
+  margin-top: var(--spacing-12);;
+}
 
 .hero__content{
   display: grid;
   gap: var(--spacing-10);
  
 }
-
-
 
 .hero__title {
   margin-top: 0;
@@ -74,10 +74,6 @@
 
 @media(min-width:48rem){
   
-  .hero{
-    padding: 0;
-  }
- 
 
   .hero__content{
     grid-template-columns: var(--width-md) 1fr;

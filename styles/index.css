@@ -7,6 +7,7 @@
 @import url(1-settings/spacing.css);
 @import url(1-settings/typography.css);
 @import url(1-settings/width.css);
+@import url(1-settings/animations.css);
 
 
 /* 2. Generic */
@@ -36,3 +37,15 @@
 @import url(5-components/testimonials.css);
 @import url(5-components/pricing.css);
 @import url(5-components/pricing-card.css);
+@import url(5-components/form-join.css);
+@import url(5-components/form-field.css);
+@import url(5-components/field-item.css);
+@import url(5-components/field-group.css);
+@import url(5-components/top.css);
+
+
+
+
+/* 6. Utilities */
+@import url(6-utilities/utilities.css);
+

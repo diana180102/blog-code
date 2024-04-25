@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+
+    <title>Únete a la comunidad</title>
+  </head>
+  <body>
+    <header class="header container">
+      <h1 class="header__logo">
+        <a href="/index.html">Codificable</a>
+      </h1>
+      <nav class="navigation header__navegation">
+        <ul>
+          <li><a href="/blog/index.html">Blog</a></li>
+          <li>
+            <a href="/blog/conoce-los-elementos-basicos-de-html.html"
+              >Sobre nosotros</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="button button--sm header__button-login">Login</button>
+      <button class="button button--icon button--outline header__button-icon">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-lg hero">
+        <div class="hero2__content">
+          <h1 class="hero__title text-center">Únete a la Comunidad</h1>
+          <p class="hero__lead text-center">
+            Completa el formulario para iniciar tu proceso de aplicación
+          </p>
+        </div>
+      </section>
+
+      <section class="section__lg form">
+        <div class="container">
+          <form action="" id="form" class="form-join">
+            
+              <div class="form-field">
+                <label for="firstname">Nombre</label>
+                <input type="text" id="campo" name="firstname" placeholder="Micaela" required />
+              </div>
+
+              <div class="form-field">
+                <label for="lastname">Apellido</label>
+                <input type="text" id="campo" name="lastname" placeholder="Bolognesi" required/>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="campo" name="email" placeholder="micaela@mail.com" required/>
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Telefono</label>
+                <input type="text" id="campo" placeholder="987654321" name="phone" />
+              </div>
+
+              <div class="form-field">
+                <label for="birthday">Fecha de nacimiento</label>
+                <input type="date" id="campo" name="birthday" />
+              </div>
+
+              <div class="form-field">
+                <label for="lastname">Ciudad de Residencia</label>
+                <input type="text" id="campo" name="lastname" />
+              </div>
+
+              <div class="form-field">
+                <label for="cv">Curriculum Vitae</label>
+                <input type="file" id="campo" name="cv" accept=".pdf" />
+                <span class="form-field__help">Solo PDF</span>
+              </div>
+              
+              <div class="form-field">
+                <label for="pais">Pais de Residencia:</label>
+                <select id="pais" name="pais" required>
+                  <option value="">Selecciona uno</option>
+                  <option value="AR">Argentina</option>
+                  <option value="BO">Bolivia</option>
+                  <option value="BR">Brasil</option>
+                  <option value="CL">Chile</option>
+                  <option value="CO">Colombia</option>
+                  <option value="CR">Costa Rica</option>
+                  <option value="CU">Cuba</option>
+                  <option value="DO">República Dominicana</option>
+                  <option value="EC">Ecuador</option>
+                  <option value="SV">El Salvador</option>
+                  <option value="GT">Guatemala</option>
+                  <option value="HN">Honduras</option>
+                  <option value="MX">México</option>
+                  <option value="NI">Nicaragua</option>
+                  <option value="PA">Panamá</option>
+                  <option value="PY">Paraguay</option>
+                  <option value="PE">Perú</option>
+                  <option value="PR">Puerto Rico</option>
+                  <option value="UY">Uruguay</option>
+                  <option value="VE">Venezuela</option>
+                </select>
+              </div>
+            
+
+            <div class="form-field span-2">
+               <label for="">Dirección de Residencia</label>
+              <input type="text" />
+            </div>
+            
+            
+              <div class="field-group span-2">
+                
+                <legend>Experiencia Profesional</legend>
+                <div class="field-item">
+                  <input
+                    type="radio"
+                    name="without-experience"
+                    id=""
+                    value="Sin experiencia"
+                    required
+
+                  />
+                  <label for="without-experience">Sin experiencia</label>
+                </div>
+
+                <div class="field-item">
+                  <input
+                    type="radio"
+                    name="without-experience"
+                    id=""
+                    value="Sin experiencia"
+                    
+                  />
+                  <label for="without-experience">Menos de 1 año</label>
+                </div>
+
+                <div class="field-item">
+                  <input
+                    type="radio"
+                    name="without-experience"
+                    id=""
+                    value="Sin experiencia"
+                    
+                  />
+                  <label for="without-experience">Entre 1 y 2 años</label>
+                </div>
+
+                <div class="field-item">
+                  <input
+                    type="radio"
+                    name="without-experience"
+                    id=""
+                    value="Sin experiencia"
+                    
+                  />
+                  <label for="without-experience">Entre 2 y 5 años</label>
+                </div>
+                <div class="field-item">
+                  <input
+                    type="radio"
+                    name="without-experience"
+                    id=""
+                    value="Sin experiencia"
+                    
+                  />
+                  <label for="without-experience">Más de 5 años</label>
+                </div>
+              </div>
+            
+            <div class="field-group span-2">
+              <legend>Tecnologías que has manejado</legend>
+
+              <div class="field-item">
+                <input type="checkbox" name="HTML-CSS" />
+                <label for="HTML-CSS">HTML y CSS</label>
+              </div>
+              <div class="field-item">
+                <input type="checkbox" name="HTML-CSS" />
+                <label for="HTML-CSS">JavaScript</label>
+              </div>
+
+              <div class="field-item">
+                <input type="checkbox" name="HTML-CSS" />
+                <label for="HTML-CSS">TypeScript</label>
+              </div>
+
+              <div class="field-item">
+                <input type="checkbox" name="HTML-CSS" />
+                <label for="HTML-CSS">Node.js</label>
+              </div>
+
+              <div class="field-item">
+                <input type="checkbox" name="HTML-CSS" />
+                <label for="HTML-CSS">React</label>
+              </div>
+
+              <span class="form-field__help">Marca todas las que aplique</span>
+            </div>
+
+            <button type="submit" class="button button--lg span-2">Iniciar Aplicación</button>
+            
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <ul class="social-links">
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/facebook.svg"
+              width="24"
+              height="24"
+              alt="Facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/linkedin.svg"
+              width="24"
+              height="24"
+              alt="LinkedIn icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/twitter.svg"
+              width="24"
+              height="24"
+              alt="Twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="/assets/icons/github.svg"
+              width="24"
+              height="24"
+              alt="GitHub icon"
+          /></a>
+        </li>
+      </ul>
+      <small class="footer__text"
+        >&copy; 2023 Codificable - Todos los derechos reservados</small
+      >
+    </footer>
+  </body>
+</html>
